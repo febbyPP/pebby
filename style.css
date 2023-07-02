@@ -1,0 +1,125 @@
+body{
+    background-color: rgb(238, 245, 246);
+    background-image: url(me.jpg);
+    width: 100%;
+    height: 80vh;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    text-align: center;
+}
+.btn a{
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #161515;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: none;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+  }
+  .btn:hover, .btn:focus {
+    color: #00d9ff;
+    outline: 0;
+  }
+  .second {
+    border-radius: 3em;
+    border-color: #050505;
+    color: #cf2a2a;
+    background-position: 0,0;
+    background-size: 100%;
+    transition: 300ms ease-in-out;
+  }
+ *menu a{
+  box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.1em;
+    color: #e74c3c;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 50;
+    line-height: 1;
+    margin: px;
+    padding: 1.2em 1.2em;
+    text-decoration: none;
+    text-align: right;
+    text-transform: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+  }
+  .btn:hover, .btn:focus {
+    color: #e4f70e00;
+    outline: 0;
+  }
+  .second {
+    border-radius: 3em;
+    border-color: #000000;
+    color: #000000;
+    background-position: 0,0;
+    background-size: 100%;
+    transition: 100ms ease-in-out;
+  }
+  .second:hover {
+    background-position: 100px;
+  }
+
+menu {
+  text-decoration: none;
+  margin: 0;
+  padding: 0px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding:5px 0;
+    background-color:#0b03e900;
+}
+.medsos ul li {
+    display: inline-block;
+    color: rgb(5, 5, 5);
+    margin-right: 15px;
+    block-size: 10px;
+}
+container a{
+  width: 80px;
+  margin: auto;
+  position: relative;
+}
+.logo {
+  font-size: 20px;
+  font-weight: 900;
+  float: left;
+  font-family: sans-serif;
+  color: #0e6bb7;
+}
+nav ul li a{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 15px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background: rgba(15, 15, 15, 0);
+}
